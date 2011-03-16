@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Precio.Infrastructure", "Precio.Infrastructure\Precio.Infrastructure.csproj", "{C2804D59-CF9D-42B3-8849-8361061A9953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Precio.Infrastructure.EF4", "Precio.Infrastructure.EF4\Precio.Infrastructure.EF4.csproj", "{3FB2064D-9F99-45E8-9023-71BC377D810A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Precio.Infrastructure.MongoDB", "Precio.Infrastructure.MongoDB\Precio.Infrastructure.MongoDB.csproj", "{4FB4BB07-FCEE-4AD7-B7CA-8F6B901D4514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Precio.Infrastructure.Tests", "Precio.Infrastructure.Tests\Precio.Infrastructure.Tests.csproj", "{4F944DDC-80F4-4CEB-9295-4BE63033317C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://srv319.precio.lan:8080/tfs/preciocollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CodeBaseBlog.DomainModel.Tests\\CodeBaseBlog.DomainModel.Tests.csproj
+		SccProjectName1 = CodeBaseBlog.DomainModel.Tests
+		SccLocalPath1 = CodeBaseBlog.DomainModel.Tests
+		SccProjectUniqueName2 = CodeBaseBlog.DomainModel\\CodeBaseBlog.DomainModel.csproj
+		SccProjectName2 = CodeBaseBlog.DomainModel
+		SccLocalPath2 = CodeBaseBlog.DomainModel
+		SccProjectUniqueName3 = CodeBaseBlog.PresentationModel.Tests\\CodeBaseBlog.PresentationModel.Tests.csproj
+		SccProjectName3 = CodeBaseBlog.PresentationModel.Tests
+		SccLocalPath3 = CodeBaseBlog.PresentationModel.Tests
+		SccProjectUniqueName4 = CodeBaseBlog.PresentationModel\\CodeBaseBlog.PresentationModel.csproj
+		SccProjectName4 = CodeBaseBlog.PresentationModel
+		SccLocalPath4 = CodeBaseBlog.PresentationModel
+		SccProjectUniqueName5 = CodeBaseBlog\\CodeBaseBlog.csproj
+		SccProjectName5 = CodeBaseBlog
+		SccLocalPath5 = CodeBaseBlog
+		SccProjectUniqueName6 = Precio.DomainDrivenDesign\\Precio.DDD.csproj
+		SccProjectName6 = Precio.DomainDrivenDesign
+		SccLocalPath6 = Precio.DomainDrivenDesign
+		SccProjectUniqueName7 = Precio.DDD.EF4\\Precio.DDD.EF4.csproj
+		SccProjectName7 = Precio.DDD.EF4
+		SccLocalPath7 = Precio.DDD.EF4
+		SccProjectUniqueName8 = Precio.DomainDrivenDesign.Tests\\Precio.DDD.Tests.csproj
+		SccProjectName8 = Precio.DomainDrivenDesign.Tests
+		SccLocalPath8 = Precio.DomainDrivenDesign.Tests
+		SccProjectUniqueName9 = Precio.DDD.MongoDB\\Precio.DDD.MongoDB.csproj
+		SccProjectName9 = Precio.DDD.MongoDB
+		SccLocalPath9 = Precio.DDD.MongoDB
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2804D59-CF9D-42B3-8849-8361061A9953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2804D59-CF9D-42B3-8849-8361061A9953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2804D59-CF9D-42B3-8849-8361061A9953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2804D59-CF9D-42B3-8849-8361061A9953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB2064D-9F99-45E8-9023-71BC377D810A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB2064D-9F99-45E8-9023-71BC377D810A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB2064D-9F99-45E8-9023-71BC377D810A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB2064D-9F99-45E8-9023-71BC377D810A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB4BB07-FCEE-4AD7-B7CA-8F6B901D4514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB4BB07-FCEE-4AD7-B7CA-8F6B901D4514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB4BB07-FCEE-4AD7-B7CA-8F6B901D4514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB4BB07-FCEE-4AD7-B7CA-8F6B901D4514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F944DDC-80F4-4CEB-9295-4BE63033317C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F944DDC-80F4-4CEB-9295-4BE63033317C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F944DDC-80F4-4CEB-9295-4BE63033317C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F944DDC-80F4-4CEB-9295-4BE63033317C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
