@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Precio.Infrastructure.Mongo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Precio.Infrastructure.Tests", "Precio.Infrastructure.Tests\Precio.Infrastructure.Tests.csproj", "{4F944DDC-80F4-4CEB-9295-4BE63033317C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Precio.Infrastructure.NHibernate", "Precio.Infrastructure.NHibernate\Precio.Infrastructure.NHibernate.csproj", "{95B18918-8D16-480F-9978-9CB0292D1F55}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 10
@@ -64,6 +66,10 @@ Global
 		{4F944DDC-80F4-4CEB-9295-4BE63033317C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F944DDC-80F4-4CEB-9295-4BE63033317C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F944DDC-80F4-4CEB-9295-4BE63033317C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B18918-8D16-480F-9978-9CB0292D1F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B18918-8D16-480F-9978-9CB0292D1F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B18918-8D16-480F-9978-9CB0292D1F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B18918-8D16-480F-9978-9CB0292D1F55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
