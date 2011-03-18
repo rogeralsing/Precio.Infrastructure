@@ -1,0 +1,28 @@
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\bin\CodeBaseBlog.dll
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\bin\CodeBaseBlog.pdb
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\obj\Debug\ResolveAssemblyReference.cache
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\obj\Debug\CodeBaseBlog.dll
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\obj\Debug\CodeBaseBlog.pdb
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\bin\CodeBaseBlog.DomainModel.dll
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\bin\CodeBaseBlog.DomainModel.pdb
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\bin\CodeBaseBlog.PresentationModel.dll
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\bin\CodeBaseBlog.PresentationModel.pdb
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\bin\HibernatingRhinos.Profiler.Appender.v4.0.dll
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\bin\Precio.Infrastructure.dll
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\bin\Precio.Infrastructure.EF4.dll
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\bin\Precio.Infrastructure.EF4.pdb
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog\bin\Precio.Infrastructure.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\bin\CodeBaseBlog.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\bin\CodeBaseBlog.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\bin\CodeBaseBlog.DomainModel.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\bin\CodeBaseBlog.PresentationModel.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\bin\HibernatingRhinos.Profiler.Appender.v4.0.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\bin\Precio.Infrastructure.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\bin\Precio.Infrastructure.EF4.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\bin\CodeBaseBlog.DomainModel.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\bin\CodeBaseBlog.PresentationModel.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\bin\Precio.Infrastructure.EF4.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\bin\Precio.Infrastructure.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\obj\Debug\CodeBaseBlog.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog\obj\Debug\CodeBaseBlog.pdb

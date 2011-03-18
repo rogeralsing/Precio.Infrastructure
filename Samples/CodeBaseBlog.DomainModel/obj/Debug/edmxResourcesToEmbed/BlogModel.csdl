@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyBlogModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="MyBlogConnection" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="MyBlogModel.Category" />
+    <EntitySet Name="Comments" EntityType="MyBlogModel.Comment" />
+    <EntitySet Name="Posts" EntityType="MyBlogModel.Post" />
+    <AssociationSet Name="PostCategoryLinks" Association="MyBlogModel.PostCategoryLinks">
+      <End Role="Posts" EntitySet="Posts" />
+      <End Role="Categories" EntitySet="Categories" />
+    </AssociationSet>
+    <AssociationSet Name="PostComment" Association="MyBlogModel.PostComment">
+      <End Role="Post" EntitySet="Posts" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <NavigationProperty Name="Posts" Relationship="MyBlogModel.PostCategoryLinks" FromRole="Categories" ToRole="Posts" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="String" Name="Body" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="Boolean" Name="Approved" Nullable="false" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="false" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <NavigationProperty Name="Post" Relationship="MyBlogModel.PostComment" FromRole="Comment" ToRole="Post" />
+    <Property Name="User" Type="MyBlogModel.UserInfo" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="false" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="DateTime" Name="LastModifiedDate" Nullable="false" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="DateTime" Name="PublishDate" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="String" Name="Subject" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="String" Name="Body" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="Boolean" Name="CommentsEnabled" Nullable="false" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <NavigationProperty Name="Categories" Relationship="MyBlogModel.PostCategoryLinks" FromRole="Posts" ToRole="Categories" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <NavigationProperty Name="Comments" Relationship="MyBlogModel.PostComment" FromRole="Post" ToRole="Comment" />
+  </EntityType>
+  <Association Name="PostCategoryLinks">
+    <End Type="MyBlogModel.Post" Role="Posts" Multiplicity="*" />
+    <End Type="MyBlogModel.Category" Role="Categories" Multiplicity="*" />
+  </Association>
+  <Association Name="PostComment">
+    <End Type="MyBlogModel.Post" Role="Post" Multiplicity="1" />
+    <End Type="MyBlogModel.Comment" Role="Comment" Multiplicity="*" />
+  </Association>
+  <ComplexType Name="UserInfo">
+    <Property Type="String" Name="Name" Nullable="false" a:SetterAccess="Private" MaxLength="500" FixedLength="false" Unicode="true" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="String" Name="Email" a:SetterAccess="Private" MaxLength="500" FixedLength="false" Unicode="true" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="String" Name="WebSite" a:SetterAccess="Private" MaxLength="500" FixedLength="false" Unicode="true" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="String" Name="UserId" Nullable="false" />
+  </ComplexType>
+</Schema>

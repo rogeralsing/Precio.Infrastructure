@@ -1,0 +1,18 @@
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel\bin\Debug\CodeBaseBlog.PresentationModel.dll
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel\bin\Debug\CodeBaseBlog.PresentationModel.pdb
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel\bin\Debug\CodeBaseBlog.DomainModel.dll
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel\bin\Debug\CodeBaseBlog.DomainModel.pdb
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel\obj\Debug\ResolveAssemblyReference.cache
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel\obj\Debug\CodeBaseBlog.PresentationModel.dll
+c:\users\roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel\obj\Debug\CodeBaseBlog.PresentationModel.pdb
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel\bin\Debug\Precio.Infrastructure.dll
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel\bin\Debug\Precio.Infrastructure.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel\bin\Debug\CodeBaseBlog.PresentationModel.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel\bin\Debug\CodeBaseBlog.PresentationModel.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel\bin\Debug\CodeBaseBlog.DomainModel.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel\bin\Debug\Precio.Infrastructure.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel\bin\Debug\CodeBaseBlog.DomainModel.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel\bin\Debug\Precio.Infrastructure.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel\obj\Debug\CodeBaseBlog.PresentationModel.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel\obj\Debug\CodeBaseBlog.PresentationModel.pdb

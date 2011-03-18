@@ -1,0 +1,159 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CodeBaseBlogMaster.master.cs" Inherits="CodeBaseBlog.CodeBaseBlogMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        body
+        {
+            font-family:Arial;
+            font-size:12px;    
+            margin:0;
+            padding:0;
+        }
+        h1, h2, h3, h4
+        {
+            margin:0;
+            padding:0;
+        }
+        a:link, a:visited, a:hover, a:active
+        {
+            font-size:1.1em;    
+        }
+        a:link, a:visited, a:active
+        {
+            color:#333;    
+        }        
+        a:hover
+        {
+            color:#000;    
+        }
+        
+       
+        #Container
+        {
+                
+        }
+        #Container #Menu ul
+        {
+            width:180px;
+            margin:0 10px 0 0;            
+            padding:0;    
+            float:left;
+        }
+        #Container #Menu ul li
+        {
+           list-style:none;    
+           display:block;
+           height:23px;
+           line-height:18px;
+           clear:right;
+           padding:5px 0 0 10px;
+        }
+        #Container #Menu ul li:hover
+        {
+            background-color:#ccc;    
+        }
+        #Container #BlogContent
+        {
+            width:800px;
+            float:left;    
+        }
+        #Container #Header
+        {
+            width:100%;
+            height:100px; 
+            background-color:#666;   
+            margin:0 0 10px 0;
+            line-height:100px;
+            padding:0 20px;
+            color:#eee;
+        }
+        .clear
+        {
+            clear:both;    
+        }
+        
+        #Posts .post, #BlogPost .post
+        {
+            width:450px;
+            padding:10px;
+            border:1px #ccc dotted;
+            margin:0 0 10px 0;    
+        }
+        #Posts .heading, #BlogPost .heading
+        {
+            background-color:#666;                        
+            padding:10px;    
+            color:#eee;
+            font-size:18px;
+        }        
+        #Posts .heading a, #BlogPost .heading a
+        {
+            color:#eee;
+            font-size:18px;    
+        } 
+        #Posts .content, #BlogPost .content
+        {
+            padding:10px 0 10px 0;
+            border-bottom:1px solid #666;    
+        }
+        #Posts .categories, #BlogPost .categories  
+        {
+                font-style:italic;
+                padding:10px 0 10px 0;
+        }
+        #Posts .comments 
+        {
+            padding:10px 0 0 0;
+            color:green;   
+            font-size:1.1em; 
+        }
+        #BlogPost .comments
+        {
+            margin:10px 0 0 30px;
+        }
+        #BlogPost .comment
+        {
+        }
+               
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Container">
+        <div id="Header">
+            <h1><a href="./ShowPosts.aspx">Codebase Blog</a></h1>
+        </div>
+        
+        <asp:Repeater ID="CategoryRepeater" runat="server" EnableViewState=false>
+        <HeaderTemplate>
+        <div id="Menu">
+            <ul>
+        </HeaderTemplate>
+        <FooterTemplate>
+            </ul>
+        </div>
+        </FooterTemplate>
+        <ItemTemplate>
+        <li>
+        <a href="ShowPosts.aspx?categoryId=<%#Eval("Id") %>">
+        <%#Eval("Name") %> (<%#Eval("PostCount") %>)
+        </a>
+        </li>
+        </ItemTemplate>
+        </asp:Repeater>
+        <div id="BlogContent">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+
+    </div>
+    </form>
+</body>
+</html>

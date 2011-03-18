@@ -1,0 +1,22 @@
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.PresentationModel.Tests.dll
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.PresentationModel.Tests.pdb
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.DomainModel.dll
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.PresentationModel.dll
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.DomainModel.pdb
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.PresentationModel.pdb
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel.Tests\obj\Debug\CodeBaseBlog.PresentationModel.Tests.dll
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel.Tests\obj\Debug\CodeBaseBlog.PresentationModel.Tests.pdb
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel.Tests\bin\Debug\Precio.Infrastructure.dll
+C:\Users\Roggan\documents\visual studio 2010\Projects\CodeBaseBlog\CodeBaseBlog.PresentationModel.Tests\bin\Debug\Precio.Infrastructure.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.PresentationModel.Tests.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.PresentationModel.Tests.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.DomainModel.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.PresentationModel.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel.Tests\bin\Debug\Precio.Infrastructure.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.DomainModel.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel.Tests\bin\Debug\CodeBaseBlog.PresentationModel.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel.Tests\bin\Debug\Precio.Infrastructure.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel.Tests\obj\Debug\CodeBaseBlog.PresentationModel.Tests.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel.Tests\obj\Debug\CodeBaseBlog.PresentationModel.Tests.pdb

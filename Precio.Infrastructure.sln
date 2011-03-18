@@ -11,6 +11,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Precio.Infrastructure.Tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Precio.Infrastructure.NHibernate", "Precio.Infrastructure.NHibernate\Precio.Infrastructure.NHibernate.csproj", "{95B18918-8D16-480F-9978-9CB0292D1F55}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{E40332E2-32D0-4CF0-84D5-A5118C44D8ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBaseBlog", "Samples\CodeBaseBlog\CodeBaseBlog.csproj", "{0FF8F2C8-6CC7-497D-AF6F-C83E7075411D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBaseBlog.DomainModel", "Samples\CodeBaseBlog.DomainModel\CodeBaseBlog.DomainModel.csproj", "{830DB327-A84C-4A01-8AFE-E0EEBF9CD6FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBaseBlog.DomainModel.Tests", "Samples\CodeBaseBlog.DomainModel.Tests\CodeBaseBlog.DomainModel.Tests.csproj", "{7ED9EB54-73CB-4238-8BF0-BCCE231B97B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBaseBlog.PresentationModel", "Samples\CodeBaseBlog.PresentationModel\CodeBaseBlog.PresentationModel.csproj", "{4E791634-C452-4871-8F95-0F96BFCCAB68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBaseBlog.PresentationModel.Tests", "Samples\CodeBaseBlog.PresentationModel.Tests\CodeBaseBlog.PresentationModel.Tests.csproj", "{85D67209-9729-4E31-A83F-001E9FBA5727}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{B4321876-9A68-490D-A8AF-4ED73EAA0673}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 10
@@ -70,8 +84,36 @@ Global
 		{95B18918-8D16-480F-9978-9CB0292D1F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95B18918-8D16-480F-9978-9CB0292D1F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95B18918-8D16-480F-9978-9CB0292D1F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF8F2C8-6CC7-497D-AF6F-C83E7075411D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF8F2C8-6CC7-497D-AF6F-C83E7075411D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF8F2C8-6CC7-497D-AF6F-C83E7075411D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF8F2C8-6CC7-497D-AF6F-C83E7075411D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830DB327-A84C-4A01-8AFE-E0EEBF9CD6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830DB327-A84C-4A01-8AFE-E0EEBF9CD6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830DB327-A84C-4A01-8AFE-E0EEBF9CD6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830DB327-A84C-4A01-8AFE-E0EEBF9CD6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED9EB54-73CB-4238-8BF0-BCCE231B97B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED9EB54-73CB-4238-8BF0-BCCE231B97B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED9EB54-73CB-4238-8BF0-BCCE231B97B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED9EB54-73CB-4238-8BF0-BCCE231B97B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E791634-C452-4871-8F95-0F96BFCCAB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E791634-C452-4871-8F95-0F96BFCCAB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E791634-C452-4871-8F95-0F96BFCCAB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E791634-C452-4871-8F95-0F96BFCCAB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D67209-9729-4E31-A83F-001E9FBA5727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D67209-9729-4E31-A83F-001E9FBA5727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D67209-9729-4E31-A83F-001E9FBA5727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D67209-9729-4E31-A83F-001E9FBA5727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4321876-9A68-490D-A8AF-4ED73EAA0673} = {E40332E2-32D0-4CF0-84D5-A5118C44D8ED}
+		{0FF8F2C8-6CC7-497D-AF6F-C83E7075411D} = {B4321876-9A68-490D-A8AF-4ED73EAA0673}
+		{4E791634-C452-4871-8F95-0F96BFCCAB68} = {B4321876-9A68-490D-A8AF-4ED73EAA0673}
+		{830DB327-A84C-4A01-8AFE-E0EEBF9CD6FA} = {B4321876-9A68-490D-A8AF-4ED73EAA0673}
+		{7ED9EB54-73CB-4238-8BF0-BCCE231B97B9} = {B4321876-9A68-490D-A8AF-4ED73EAA0673}
+		{85D67209-9729-4E31-A83F-001E9FBA5727} = {B4321876-9A68-490D-A8AF-4ED73EAA0673}
 	EndGlobalSection
 EndGlobal
