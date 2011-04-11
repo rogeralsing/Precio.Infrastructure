@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="0FF8F2C8-6CC7-497D-AF6F-C83E7075411D" ModuleId="CodeBaseBlog" />
+  <Module PersistentId="C2804D59-CF9D-42B3-8849-8361061A9953" ModuleId="Precio.Infrastructure" />
+  <Module PersistentId="3FB2064D-9F99-45E8-9023-71BC377D810A" ModuleId="Precio.Infrastructure.EF4" />
+  <Module PersistentId="830DB327-A84C-4A01-8AFE-E0EEBF9CD6FA" ModuleId="CodeBaseBlog.DomainModel" />
+  <Module PersistentId="7ED9EB54-73CB-4238-8BF0-BCCE231B97B9" ModuleId="CodeBaseBlog.DomainModel.Tests" />
+  <Module PersistentId="2A9A2F58-E7B8-4987-B415-9911BD7DFF86" ModuleId="CodeBaseBlog.Razor" />
+</Modules>

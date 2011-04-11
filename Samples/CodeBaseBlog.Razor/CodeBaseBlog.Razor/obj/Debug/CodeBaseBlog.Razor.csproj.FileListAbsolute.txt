@@ -1,0 +1,13 @@
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\bin\CodeBaseBlog.Razor.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\bin\CodeBaseBlog.Razor.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\bin\CodeBaseBlog.DomainModel.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\bin\CodeBaseBlog.PresentationModel.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\bin\Precio.Infrastructure.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\bin\Precio.Infrastructure.EF4.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\bin\Precio.Infrastructure.EF4.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\bin\Precio.Infrastructure.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\bin\CodeBaseBlog.DomainModel.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\bin\CodeBaseBlog.PresentationModel.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\obj\Debug\CodeBaseBlog.Razor.dll
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.Razor\CodeBaseBlog.Razor\obj\Debug\CodeBaseBlog.Razor.pdb

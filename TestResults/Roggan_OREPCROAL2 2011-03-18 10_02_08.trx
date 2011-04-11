@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cdcd4e40-4c1b-4c41-bcdf-f2e8c5683392" name="Roggan@OREPCROAL2 2011-03-18 10:02:08" runUser="OREPCROAL2\Roggan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e18aede7-24dc-4cf6-9dee-d78a441d8919">
+    <Deployment runDeploymentRoot="Roggan_OREPCROAL2 2011-03-18 10_02_08">
+      <DeploymentItem filename="C:\Projects\git\Roger\Precio.Infrastructure\Precio.Infrastructure\bin\Debug\Precio.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.DomainModel\bin\Debug\CodeBaseBlog.DomainModel.dll" />
+      <DeploymentItem filename="C:\Projects\git\Roger\Precio.Infrastructure\Samples\CodeBaseBlog.PresentationModel\bin\Debug\CodeBaseBlog.PresentationModel.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-03-18T10:02:08.3763093+01:00" queuing="2011-03-18T10:02:09.4443093+01:00" start="2011-03-18T10:02:09.6473093+01:00" finish="2011-03-18T10:02:11.9783093+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ValueObjects_are_comparable_by_state" storage="c:\projects\git\roger\precio.infrastructure\precio.infrastructure.tests\bin\debug\precio.infrastructure.tests.dll" id="3e4bd12d-4c86-c95f-8cfb-c88f5501f70f">
+      <Execution id="7d940f21-0fb1-483c-8cab-d58c71fae36a" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Precio.Infrastructure.Tests/bin/Debug/Precio.Infrastructure.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Precio.DomainDrivenDesign.Tests.ValueObjectTests, Precio.Infrastructure.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValueObjects_are_comparable_by_state" />
+    </UnitTest>
+    <UnitTest name="can_send_and_receive_sync_message" storage="c:\projects\git\roger\precio.infrastructure\precio.infrastructure.tests\bin\debug\precio.infrastructure.tests.dll" id="8d6fbb11-7190-e4b7-7919-b892b585c5d3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Messaging" />
+      </TestCategory>
+      <Execution id="9d25ac02-9d39-4e2f-92bd-91f6d7338649" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Precio.Infrastructure.Tests/bin/Debug/Precio.Infrastructure.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Precio.Messaging.Tests.MessagingTests, Precio.Infrastructure.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_send_and_receive_sync_message" />
+    </UnitTest>
+    <UnitTest name="can_find_post_by_id" storage="c:\projects\git\roger\precio.infrastructure\samples\codebaseblog.domainmodel.tests\bin\debug\codebaseblog.domainmodel.tests.dll" id="34efb2cf-32f8-760b-7b57-b686ff3643b1">
+      <Execution id="38b59682-ae4f-4a46-a96e-b207e06c9dc0" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Samples/CodeBaseBlog.DomainModel.Tests/bin/Debug/CodeBaseBlog.DomainModel.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeBaseBlog.DomainModel.Tests.PostTests, CodeBaseBlog.DomainModel.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_find_post_by_id" />
+    </UnitTest>
+    <UnitTest name="user_can_see_other_users_approved_comments" storage="c:\projects\git\roger\precio.infrastructure\samples\codebaseblog.presentationmodel.tests\bin\debug\codebaseblog.presentationmodel.tests.dll" id="1b1cc080-253c-46fd-c157-4cd2cf7975e9">
+      <Execution id="70d1bd85-46c8-460f-9b02-bcf340630579" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Samples/CodeBaseBlog.PresentationModel.Tests/bin/Debug/CodeBaseBlog.PresentationModel.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeBaseBlog.PresentationModel.Tests.PostTests, CodeBaseBlog.PresentationModel.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="user_can_see_other_users_approved_comments" />
+    </UnitTest>
+    <UnitTest name="can_not_reply_to_post_when_comments_are_disabled" storage="c:\projects\git\roger\precio.infrastructure\samples\codebaseblog.domainmodel.tests\bin\debug\codebaseblog.domainmodel.tests.dll" id="4baa78db-e889-d2fe-2c4d-42bf92a2bf8a">
+      <Execution id="25f081b4-dad9-4714-9a4c-6727a2592f6e" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Samples/CodeBaseBlog.DomainModel.Tests/bin/Debug/CodeBaseBlog.DomainModel.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeBaseBlog.DomainModel.Tests.PostTests, CodeBaseBlog.DomainModel.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_not_reply_to_post_when_comments_are_disabled" />
+    </UnitTest>
+    <UnitTest name="user_can_see_own_unapproved_comments" storage="c:\projects\git\roger\precio.infrastructure\samples\codebaseblog.presentationmodel.tests\bin\debug\codebaseblog.presentationmodel.tests.dll" id="7eea1922-c556-2456-a2a0-763ff471a438">
+      <Execution id="a8d77ef2-52f1-4406-a528-1d8b5a8a782f" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Samples/CodeBaseBlog.PresentationModel.Tests/bin/Debug/CodeBaseBlog.PresentationModel.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeBaseBlog.PresentationModel.Tests.PostTests, CodeBaseBlog.PresentationModel.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="user_can_see_own_unapproved_comments" />
+    </UnitTest>
+    <UnitTest name="can_register_multiple_handlers_for_message_type" storage="c:\projects\git\roger\precio.infrastructure\precio.infrastructure.tests\bin\debug\precio.infrastructure.tests.dll" id="eaf72f60-ed1e-3c09-d719-17d68d155fd6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Messaging" />
+      </TestCategory>
+      <Execution id="056b41a1-f941-4760-bfb6-8e88e4dae5ef" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Precio.Infrastructure.Tests/bin/Debug/Precio.Infrastructure.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Precio.Messaging.Tests.MessagingTests, Precio.Infrastructure.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_register_multiple_handlers_for_message_type" />
+    </UnitTest>
+    <UnitTest name="can_wait_for_transaction_complete" storage="c:\projects\git\roger\precio.infrastructure\precio.infrastructure.tests\bin\debug\precio.infrastructure.tests.dll" id="52cac463-2153-d2e1-c7f0-e953f48ad03c">
+      <Execution id="b5157be0-842a-4ab7-a8ee-6ba3beeccdf8" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Precio.Infrastructure.Tests/bin/Debug/Precio.Infrastructure.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Precio.Transactional.Tests.TransactionalTests, Precio.Infrastructure.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_wait_for_transaction_complete" />
+    </UnitTest>
+    <UnitTest name="can_publish_post" storage="c:\projects\git\roger\precio.infrastructure\samples\codebaseblog.domainmodel.tests\bin\debug\codebaseblog.domainmodel.tests.dll" id="2f0e8905-f45a-dcc3-4062-f2a922067c71">
+      <Execution id="684d5b14-fd3c-44cd-a8e3-ce833ac0c6ee" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Samples/CodeBaseBlog.DomainModel.Tests/bin/Debug/CodeBaseBlog.DomainModel.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeBaseBlog.DomainModel.Tests.PostTests, CodeBaseBlog.DomainModel.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_publish_post" />
+    </UnitTest>
+    <UnitTest name="can_send_and_receive_async_message" storage="c:\projects\git\roger\precio.infrastructure\precio.infrastructure.tests\bin\debug\precio.infrastructure.tests.dll" id="ef540434-9cfe-e774-54a1-ad49f43b5884">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Messaging" />
+      </TestCategory>
+      <Execution id="91a0bccf-5059-4047-a716-7da9f46dd30a" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Precio.Infrastructure.Tests/bin/Debug/Precio.Infrastructure.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Precio.Messaging.Tests.MessagingTests, Precio.Infrastructure.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_send_and_receive_async_message" />
+    </UnitTest>
+    <UnitTest name="ValueObjects_can_be_copied" storage="c:\projects\git\roger\precio.infrastructure\precio.infrastructure.tests\bin\debug\precio.infrastructure.tests.dll" id="2a8a1b08-df7e-d866-694d-cb70bf800c5b">
+      <Execution id="7aef325d-d490-4769-9edc-42c5162e3ab1" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Precio.Infrastructure.Tests/bin/Debug/Precio.Infrastructure.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Precio.DomainDrivenDesign.Tests.ValueObjectTests, Precio.Infrastructure.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValueObjects_can_be_copied" />
+    </UnitTest>
+    <UnitTest name="can_wait_for_transaction_rollback" storage="c:\projects\git\roger\precio.infrastructure\precio.infrastructure.tests\bin\debug\precio.infrastructure.tests.dll" id="896913e3-8941-f83e-11ee-2c4e37738052">
+      <Execution id="fdd02017-9261-47e8-ab10-27f8018a9130" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Precio.Infrastructure.Tests/bin/Debug/Precio.Infrastructure.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Precio.Transactional.Tests.TransactionalTests, Precio.Infrastructure.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_wait_for_transaction_rollback" />
+    </UnitTest>
+    <UnitTest name="can_send_FailedMessage_when_messagehandler_throws" storage="c:\projects\git\roger\precio.infrastructure\precio.infrastructure.tests\bin\debug\precio.infrastructure.tests.dll" id="6da6cab7-4bce-b11a-958f-ee358081082d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Messaging" />
+      </TestCategory>
+      <Execution id="cea0730e-68c9-43f2-958e-bd15e7b3589f" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Precio.Infrastructure.Tests/bin/Debug/Precio.Infrastructure.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Precio.Messaging.Tests.MessagingTests, Precio.Infrastructure.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_send_FailedMessage_when_messagehandler_throws" />
+    </UnitTest>
+    <UnitTest name="can_wait_for_transaction_committed" storage="c:\projects\git\roger\precio.infrastructure\precio.infrastructure.tests\bin\debug\precio.infrastructure.tests.dll" id="64b14a69-8278-3850-2ea8-9355ced915ab">
+      <Execution id="820e0d7a-bdaa-4bc7-9d54-1407cd3196c1" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Precio.Infrastructure.Tests/bin/Debug/Precio.Infrastructure.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Precio.Transactional.Tests.TransactionalTests, Precio.Infrastructure.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_wait_for_transaction_committed" />
+    </UnitTest>
+    <UnitTest name="user_can_not_see_other_users_unapproved_comments" storage="c:\projects\git\roger\precio.infrastructure\samples\codebaseblog.presentationmodel.tests\bin\debug\codebaseblog.presentationmodel.tests.dll" id="fc140ea3-a337-d5f9-db59-4718f63d444d">
+      <Execution id="830bcf05-f1b5-4218-af1c-7569402cc5ce" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Samples/CodeBaseBlog.PresentationModel.Tests/bin/Debug/CodeBaseBlog.PresentationModel.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeBaseBlog.PresentationModel.Tests.PostTests, CodeBaseBlog.PresentationModel.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="user_can_not_see_other_users_unapproved_comments" />
+    </UnitTest>
+    <UnitTest name="can_reply_to_post_when_comments_are_enabled" storage="c:\projects\git\roger\precio.infrastructure\samples\codebaseblog.domainmodel.tests\bin\debug\codebaseblog.domainmodel.tests.dll" id="9e698349-aa24-8e33-79f4-5eca9c240f81">
+      <Execution id="c733e26c-396c-4cfe-9f26-a03c434e5461" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Samples/CodeBaseBlog.DomainModel.Tests/bin/Debug/CodeBaseBlog.DomainModel.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeBaseBlog.DomainModel.Tests.PostTests, CodeBaseBlog.DomainModel.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_reply_to_post_when_comments_are_enabled" />
+    </UnitTest>
+    <UnitTest name="can_process_messages_via_RX" storage="c:\projects\git\roger\precio.infrastructure\precio.infrastructure.tests\bin\debug\precio.infrastructure.tests.dll" id="9be344a8-7aca-886b-3bff-8817dd92e33d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Messaging" />
+      </TestCategory>
+      <Execution id="d0225777-6387-462e-b25c-54e305f644b1" />
+      <TestMethod codeBase="C:/Projects/git/Roger/Precio.Infrastructure/Precio.Infrastructure.Tests/bin/Debug/Precio.Infrastructure.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Precio.Messaging.Tests.MessagingTests, Precio.Infrastructure.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_process_messages_via_RX" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1b1cc080-253c-46fd-c157-4cd2cf7975e9" executionId="70d1bd85-46c8-460f-9b02-bcf340630579" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a8a1b08-df7e-d866-694d-cb70bf800c5b" executionId="7aef325d-d490-4769-9edc-42c5162e3ab1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f0e8905-f45a-dcc3-4062-f2a922067c71" executionId="684d5b14-fd3c-44cd-a8e3-ce833ac0c6ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34efb2cf-32f8-760b-7b57-b686ff3643b1" executionId="38b59682-ae4f-4a46-a96e-b207e06c9dc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e4bd12d-4c86-c95f-8cfb-c88f5501f70f" executionId="7d940f21-0fb1-483c-8cab-d58c71fae36a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4baa78db-e889-d2fe-2c4d-42bf92a2bf8a" executionId="25f081b4-dad9-4714-9a4c-6727a2592f6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52cac463-2153-d2e1-c7f0-e953f48ad03c" executionId="b5157be0-842a-4ab7-a8ee-6ba3beeccdf8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64b14a69-8278-3850-2ea8-9355ced915ab" executionId="820e0d7a-bdaa-4bc7-9d54-1407cd3196c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6da6cab7-4bce-b11a-958f-ee358081082d" executionId="cea0730e-68c9-43f2-958e-bd15e7b3589f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7eea1922-c556-2456-a2a0-763ff471a438" executionId="a8d77ef2-52f1-4406-a528-1d8b5a8a782f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="896913e3-8941-f83e-11ee-2c4e37738052" executionId="fdd02017-9261-47e8-ab10-27f8018a9130" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d6fbb11-7190-e4b7-7919-b892b585c5d3" executionId="9d25ac02-9d39-4e2f-92bd-91f6d7338649" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9be344a8-7aca-886b-3bff-8817dd92e33d" executionId="d0225777-6387-462e-b25c-54e305f644b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e698349-aa24-8e33-79f4-5eca9c240f81" executionId="c733e26c-396c-4cfe-9f26-a03c434e5461" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eaf72f60-ed1e-3c09-d719-17d68d155fd6" executionId="056b41a1-f941-4760-bfb6-8e88e4dae5ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef540434-9cfe-e774-54a1-ad49f43b5884" executionId="91a0bccf-5059-4047-a716-7da9f46dd30a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc140ea3-a337-d5f9-db59-4718f63d444d" executionId="830bcf05-f1b5-4218-af1c-7569402cc5ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="70d1bd85-46c8-460f-9b02-bcf340630579" testId="1b1cc080-253c-46fd-c157-4cd2cf7975e9" testName="user_can_see_other_users_approved_comments" computerName="OREPCROAL2" duration="00:00:00.0700820" startTime="2011-03-18T10:02:09.7803093+01:00" endTime="2011-03-18T10:02:10.2083093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70d1bd85-46c8-460f-9b02-bcf340630579">
+    </UnitTestResult>
+    <UnitTestResult executionId="7aef325d-d490-4769-9edc-42c5162e3ab1" testId="2a8a1b08-df7e-d866-694d-cb70bf800c5b" testName="ValueObjects_can_be_copied" computerName="OREPCROAL2" duration="00:00:00.0148614" startTime="2011-03-18T10:02:10.2223093+01:00" endTime="2011-03-18T10:02:10.4383093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7aef325d-d490-4769-9edc-42c5162e3ab1">
+    </UnitTestResult>
+    <UnitTestResult executionId="684d5b14-fd3c-44cd-a8e3-ce833ac0c6ee" testId="2f0e8905-f45a-dcc3-4062-f2a922067c71" testName="can_publish_post" computerName="OREPCROAL2" duration="00:00:00.0180742" startTime="2011-03-18T10:02:10.4413093+01:00" endTime="2011-03-18T10:02:10.6733093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="684d5b14-fd3c-44cd-a8e3-ce833ac0c6ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="38b59682-ae4f-4a46-a96e-b207e06c9dc0" testId="34efb2cf-32f8-760b-7b57-b686ff3643b1" testName="can_find_post_by_id" computerName="OREPCROAL2" duration="00:00:00.0043888" startTime="2011-03-18T10:02:10.6803093+01:00" endTime="2011-03-18T10:02:10.6893093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38b59682-ae4f-4a46-a96e-b207e06c9dc0">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d940f21-0fb1-483c-8cab-d58c71fae36a" testId="3e4bd12d-4c86-c95f-8cfb-c88f5501f70f" testName="ValueObjects_are_comparable_by_state" computerName="OREPCROAL2" duration="00:00:00.0005514" startTime="2011-03-18T10:02:10.6923093+01:00" endTime="2011-03-18T10:02:10.6983093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d940f21-0fb1-483c-8cab-d58c71fae36a">
+    </UnitTestResult>
+    <UnitTestResult executionId="25f081b4-dad9-4714-9a4c-6727a2592f6e" testId="4baa78db-e889-d2fe-2c4d-42bf92a2bf8a" testName="can_not_reply_to_post_when_comments_are_disabled" computerName="OREPCROAL2" duration="00:00:00.0111919" startTime="2011-03-18T10:02:10.7003093+01:00" endTime="2011-03-18T10:02:10.7153093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25f081b4-dad9-4714-9a4c-6727a2592f6e">
+    </UnitTestResult>
+    <UnitTestResult executionId="b5157be0-842a-4ab7-a8ee-6ba3beeccdf8" testId="52cac463-2153-d2e1-c7f0-e953f48ad03c" testName="can_wait_for_transaction_complete" computerName="OREPCROAL2" duration="00:00:00.0194439" startTime="2011-03-18T10:02:10.7183093+01:00" endTime="2011-03-18T10:02:10.7413093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5157be0-842a-4ab7-a8ee-6ba3beeccdf8">
+    </UnitTestResult>
+    <UnitTestResult executionId="820e0d7a-bdaa-4bc7-9d54-1407cd3196c1" testId="64b14a69-8278-3850-2ea8-9355ced915ab" testName="can_wait_for_transaction_committed" computerName="OREPCROAL2" duration="00:00:00.0012087" startTime="2011-03-18T10:02:10.7443093+01:00" endTime="2011-03-18T10:02:10.7493093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="820e0d7a-bdaa-4bc7-9d54-1407cd3196c1">
+    </UnitTestResult>
+    <UnitTestResult executionId="cea0730e-68c9-43f2-958e-bd15e7b3589f" testId="6da6cab7-4bce-b11a-958f-ee358081082d" testName="can_send_FailedMessage_when_messagehandler_throws" computerName="OREPCROAL2" duration="00:00:00.0067953" startTime="2011-03-18T10:02:10.7513093+01:00" endTime="2011-03-18T10:02:10.7633093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cea0730e-68c9-43f2-958e-bd15e7b3589f">
+    </UnitTestResult>
+    <UnitTestResult executionId="a8d77ef2-52f1-4406-a528-1d8b5a8a782f" testId="7eea1922-c556-2456-a2a0-763ff471a438" testName="user_can_see_own_unapproved_comments" computerName="OREPCROAL2" duration="00:00:00.0039753" startTime="2011-03-18T10:02:10.7653093+01:00" endTime="2011-03-18T10:02:10.7733093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8d77ef2-52f1-4406-a528-1d8b5a8a782f">
+    </UnitTestResult>
+    <UnitTestResult executionId="fdd02017-9261-47e8-ab10-27f8018a9130" testId="896913e3-8941-f83e-11ee-2c4e37738052" testName="can_wait_for_transaction_rollback" computerName="OREPCROAL2" duration="00:00:00.0011468" startTime="2011-03-18T10:02:10.7763093+01:00" endTime="2011-03-18T10:02:10.7803093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdd02017-9261-47e8-ab10-27f8018a9130">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d25ac02-9d39-4e2f-92bd-91f6d7338649" testId="8d6fbb11-7190-e4b7-7919-b892b585c5d3" testName="can_send_and_receive_sync_message" computerName="OREPCROAL2" duration="00:00:00.0004348" startTime="2011-03-18T10:02:10.7823093+01:00" endTime="2011-03-18T10:02:10.7873093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d25ac02-9d39-4e2f-92bd-91f6d7338649">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0225777-6387-462e-b25c-54e305f644b1" testId="9be344a8-7aca-886b-3bff-8817dd92e33d" testName="can_process_messages_via_RX" computerName="OREPCROAL2" duration="00:00:01.0802456" startTime="2011-03-18T10:02:10.7893093+01:00" endTime="2011-03-18T10:02:11.8763093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0225777-6387-462e-b25c-54e305f644b1">
+    </UnitTestResult>
+    <UnitTestResult executionId="c733e26c-396c-4cfe-9f26-a03c434e5461" testId="9e698349-aa24-8e33-79f4-5eca9c240f81" testName="can_reply_to_post_when_comments_are_enabled" computerName="OREPCROAL2" duration="00:00:00.0131101" startTime="2011-03-18T10:02:11.8863093+01:00" endTime="2011-03-18T10:02:11.9053093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c733e26c-396c-4cfe-9f26-a03c434e5461">
+    </UnitTestResult>
+    <UnitTestResult executionId="056b41a1-f941-4760-bfb6-8e88e4dae5ef" testId="eaf72f60-ed1e-3c09-d719-17d68d155fd6" testName="can_register_multiple_handlers_for_message_type" computerName="OREPCROAL2" duration="00:00:00.0009004" startTime="2011-03-18T10:02:11.9083093+01:00" endTime="2011-03-18T10:02:11.9163093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="056b41a1-f941-4760-bfb6-8e88e4dae5ef">
+    </UnitTestResult>
+    <UnitTestResult executionId="91a0bccf-5059-4047-a716-7da9f46dd30a" testId="ef540434-9cfe-e774-54a1-ad49f43b5884" testName="can_send_and_receive_async_message" computerName="OREPCROAL2" duration="00:00:00.0015610" startTime="2011-03-18T10:02:11.9183093+01:00" endTime="2011-03-18T10:02:11.9243093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91a0bccf-5059-4047-a716-7da9f46dd30a">
+    </UnitTestResult>
+    <UnitTestResult executionId="830bcf05-f1b5-4218-af1c-7569402cc5ce" testId="fc140ea3-a337-d5f9-db59-4718f63d444d" testName="user_can_not_see_other_users_unapproved_comments" computerName="OREPCROAL2" duration="00:00:00.0035346" startTime="2011-03-18T10:02:11.9263093+01:00" endTime="2011-03-18T10:02:11.9343093+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="830bcf05-f1b5-4218-af1c-7569402cc5ce">
+    </UnitTestResult>
+  </Results>
+</TestRun>

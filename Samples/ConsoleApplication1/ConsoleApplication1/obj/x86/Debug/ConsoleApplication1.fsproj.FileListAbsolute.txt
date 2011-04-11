@@ -1,0 +1,6 @@
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.XML
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Projects\git\Roger\Precio.Infrastructure\Samples\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

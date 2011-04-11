@@ -1,0 +1,68 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="5394D621-FD2E-4671-B744-2DD131C0DACC/f:Program.fs" caret="236" fromTop="8" />
+      <File id="5394D621-FD2E-4671-B744-2DD131C0DACC/f:Clients.fs" caret="707" fromTop="24" />
+      <File id="7B8C25BA-2131-4303-BE1D-3094FC32FB44/f:Program.cs" caret="976" fromTop="39" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5394D621-FD2E-4671-B744-2DD131C0DACC/f:Clients.fs" caret="667" fromTop="18" />
+      <File id="5394D621-FD2E-4671-B744-2DD131C0DACC/f:Clients.fs" caret="81" fromTop="5" />
+      <File id="5394D621-FD2E-4671-B744-2DD131C0DACC/f:Program.fs" caret="212" fromTop="7" />
+      <File id="5394D621-FD2E-4671-B744-2DD131C0DACC/f:Clients.fs" caret="695" fromTop="23" />
+      <File id="5394D621-FD2E-4671-B744-2DD131C0DACC/f:Clients.fs" caret="527" fromTop="19" />
+      <File id="7B8C25BA-2131-4303-BE1D-3094FC32FB44/f:Program.cs" caret="302" fromTop="16" />
+      <File id="7B8C25BA-2131-4303-BE1D-3094FC32FB44/f:Program.cs" caret="430" fromTop="21" />
+      <File id="7B8C25BA-2131-4303-BE1D-3094FC32FB44/f:Program.cs" caret="891" fromTop="34" />
+      <File id="7B8C25BA-2131-4303-BE1D-3094FC32FB44/f:Program.cs" caret="783" fromTop="32" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="class" priority="1" />
+      <Item value="prop" priority="1" />
+      <Item value="public" priority="1" />
+      <Item value="event" priority="0" />
+      <Item value="EventHandler" priority="0" />
+      <Item value="EventArgs`0" priority="2" />
+      <Item value="string" priority="3" />
+      <Item value="protected" priority="0" />
+      <Item value="void" priority="1" />
+      <Item value="if" priority="0" />
+      <Item value="GetBarCompleted" priority="1" />
+      <Item value="this" priority="0" />
+      <Item value="client" priority="2" />
+      <Item value="new" priority="1" />
+      <Item value="Uri" priority="0" />
+      <Item value="OnGetBarCompleted`0" priority="0" />
+      <Item value="EventArgs&lt;string&gt;" priority="0" />
+      <Item value="e" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.WebClient">
+      <Item value="AsyncDownloadString`0" priority="0" />
+      <Item value="DownloadStringAsync`0" priority="0" />
+      <Item value="DownloadStringCompleted" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.DownloadStringCompletedEventArgs">
+      <Item value="Result" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
