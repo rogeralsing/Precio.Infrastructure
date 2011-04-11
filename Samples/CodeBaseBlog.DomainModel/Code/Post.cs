@@ -4,7 +4,7 @@ using Precio.Domain;
 
 namespace CodeBaseBlog.DomainModel
 {
-    public static class Posts
+    public static class Posts 
     {
         public static void Add(Post post)
         {
@@ -28,7 +28,7 @@ namespace CodeBaseBlog.DomainModel
     }
 
 
-    public partial class Post
+    public partial class Post : AggregateRoot<Post, int>
     {
         public Comment ReplyTo(UserInfo user, string body)
         {
@@ -46,6 +46,7 @@ namespace CodeBaseBlog.DomainModel
 
             return reply;
         }
+
 
         public Post DisableComments()
         {
